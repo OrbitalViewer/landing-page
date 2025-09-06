@@ -1,6 +1,6 @@
 # Project: Landing Page
 
-**Course:** Foundations – CSS Foundations / Flexbox:contentReference[oaicite:0]{index=0}
+**Course:** Foundations – CSS Foundations / Flexbox
 
 This project was about creating a landing page using pure HTML and CSS.  
 I applied many skills learned in the course, with additional guidance from ChatGPT on conventions and best practices.
