@@ -1,0 +1,188 @@
+body {
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-flow: column;
+  color: #1f2937;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin: 0px;
+  margin-bottom: 64px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+.header {
+  position: sticky;
+  top: 0; /* stick to the top when scrolling */
+  z-index: 1000;
+}
+
+.section {
+  padding-block: 84px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding: 16px;
+}
+
+.dark {
+  background-color: #1f2937;
+}
+
+.white {
+  background-color: whitesmoke;
+}
+
+.grey {
+  background-color: #e5e7eb;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+}
+
+.logo {
+  font-size: 24px;
+  text-decoration: none;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-left: 18px;
+}
+
+.hero-flex {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 10px;
+  margin-bottom: 28px;
+}
+
+.button {
+  background-color: #3882f6;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 32px;
+  border-radius: 8px;
+}
+
+.hero-content .button {
+  margin-top: 0px;
+}
+
+.hero-img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  min-width: 0;
+  max-height: 420px;
+}
+
+#info.section {
+  text-align: center;
+  padding-block-start: 38px;
+}
+
+.info-content {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 38px;
+}
+
+.info {
+  max-width: 210px;
+}
+
+.info img {
+  width: 200px;
+  border: #3882f6 solid 3px;
+  border-radius: 15px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #5b626b;
+  font-weight: 300;
+}
+
+.originator {
+  color: #1f2937;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: end;
+}
+
+#quote .container {
+  max-width: 700px;
+}
+
+.cta {
+  display: flex;
+  flex-flow: row;
+  background-color: #3882f6;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px 92px;
+}
+
+.cta-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.donate {
+  border: #e5e7eb solid;
+}
+
+.footer {
+  color: #e5e7eb;
+  text-align: center;
+}
+
+.footer .container {
+  padding: 30px 0px;
+}
